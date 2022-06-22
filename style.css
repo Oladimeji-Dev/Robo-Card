@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0s;
+}
+/* body{
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden ;
+} */
+
+nav{
+    background-color: rgba(128, 128, 128, 0.145);
+    min-height: 50px;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+nav h2{
+    letter-spacing :0.2rem;
+    font-size: 2rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight:900;
+    margin:  10px 0;
+    margin-bottom:20px;
+}
+nav input{
+    padding: 10px 5px;
+    background-color: white;
+    font-size: 1.3rem;
+    border: 1px solid #59c1eb;
+}
+section{
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden ;
+}
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 20px 0;
+}
+.person{
+    background-color: #96ccff;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+}
+.person:active{
+    transform: scale(.9);
+}
+.person img, .person h3, .person div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.person div{
+    padding-top: 20px;
+}
+.person h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.person:hover{
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #11abb0;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    padding: 15px 40px;
+}
+a:hover{
+    background-color: rgba(240, 240, 240, 0.829);
+    color: #11abb0;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.356);
+}
